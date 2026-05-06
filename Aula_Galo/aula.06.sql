@@ -1,0 +1,60 @@
+
+    INSERT INTO  autor (nome, nacionalidade) value
+    ('Machadode assis' ,'Brasileiro'),
+    ('Clarice Lispector','Brasileiro'),
+    ('Jorge Amado','Brasileiro'),
+    ('Paulo coelho','Brasileiro'),
+    ('Carlos Drummond','Brasileiro'),
+    ('Monteiro lobato','Brasileiro'),
+    ('Jóse de Alencar','Brasileiro'),
+    ('Graciliano Ramos','Brasileiro'),
+    ('Érico Veríssimo','Brasileiro'),
+    ('Rachel de Queiroz','Brasileiro');
+    
+    INSERT INTO livro (titulo, preco, id_autor) values
+    ('Dom cosmurro', 30.00,1),
+    (' A hora da estrela', 25.00,2),
+    ('Capitães da areia', 35.00,3),
+    ('o ALQUIMISTA', 40.00,4),
+    ('Sitio do picapau Amarelo',22.00,6),
+	('Iracema',28.00,7),
+    ('Vidas Seca',32.00,8),
+    ('o Tempo e o vento', 45.00,9),
+    (' O Quinze',27.00,10);
+    
+
+-- Livros com preço maior que 30
+SELECT * FROM livro
+WHERE preco > 30;
+
+-- Autores brasileiros
+SELECT * FROM autor
+WHERE nacionalidade = 'Brasileiro';
+
+
+-- INNER JOIN
+SELECT livro.titulo, autor.nome
+FROM livro
+INNER JOIN autor ON livro.id_autor = autor.id_autor;
+
+-- JOIN com condição
+SELECT livro.titulo, autor.nome, livro.preco
+FROM livro
+INNER JOIN autor ON livro.id_autor = autor.id_autor
+WHERE livro.preco > 30;
+
+
+UPDATE  livro 
+SET preco = preco * 1.10
+where id_livro>0;
+
+
+
+
+
+    
+
+    
+    
+    
+    
