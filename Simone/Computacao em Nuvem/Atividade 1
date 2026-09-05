@@ -1,0 +1,20 @@
+1- Qual modelo vocês escolheriam?
+R:PaaS, ois permite desenvolver, publicar e atualizar a aplicação sem precisar administrar servidores, sistemas operacionais ou infraestrutura.
+2- Qual modelo?
+R: IaaS, pois oferece controle sobre o sistema operacional e permite configurar o ambiente Linux conforme as necessidades do sistema antigo.
+3-O que faz mais sentido?
+R: SaaS, pois oferece aplicativos prontos (documentos, apresentações, e-mail e armazenamento) sem necessidade de administrar infraestrutura ou equipe de TI.
+4-Qual modelo vocês escolheriam?
+R:PaaS, pois a equipe pode desenvolver e publicar o sistema sem precisar administrar os servidores.
+5- Ela precisa escolher um único modelo para tudo?
+R:NÃO.
+Uma arquitetura pode combinar diferentes modelos:
+E-mail
+↓
+SaaS
+Aplicação própria
+↓
+PaaS
+Servidor especial
+↓
+IaaS
