@@ -1,0 +1,45 @@
+root@ubuntu:~$ pwd
+/root
+root@ubuntu:~$ hostname
+ubuntu
+root@ubuntu:~$ cd Aula002/
+root@ubuntu:~/Aula002$ ls
+index.html
+root@ubuntu:~/Aula002$ curl localhost:8080
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+  <title>Computaçãom  eNuvem</title>
+
+ </head>
+
+<body>
+  <h1>computação em nuvem </h1>
+
+  <p>meu primeiro servidor em nuvem!</p>
+
+ </body>
+
+</html>
+root@ubuntu:~/Aula002$ hostname
+ubuntu
+root@ubuntu:~/Aula002$ hostname -i
+127.0.0.1
+root@ubuntu:~/Aula002$ curl localhost:8080     
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+  <title>Computaçãom  eNuvem</title>
+
+ </head>
+
+<body>
+  <h1>computação em nuvem </h1>
+
+  <p>meu primeiro servidor em nuvem!</p>
+  <p>aluno: Gleidson Alves</p>
+  <p>aula 3 - modelos de implantação</p>
+ </body>
+
+</html>
+root@ubuntu:~/Aula002$ 
