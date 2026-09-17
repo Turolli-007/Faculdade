@@ -1,0 +1,17 @@
+Qual processo possui as funções soma(), subtracao() e multiplicacao()?
+O servidor é o único que contém a implementação dessas funções.
+
+O cliente possui o código dessas operações?
+Não. O cliente apenas chama as funções por meio de um proxy, sem conhecer ou executar a lógica.
+
+Qual endereço e porta identificam o serviço?
+Endereço: localhost; Porta: 8000.
+
+Quem inicia a chamada?
+O cliente — ele envia a requisição ao servidor.
+
+O resultado foi calculado no cliente ou no servidor?
+No servidor. Apenas o resultado final é enviado de volta.
+
+Qual diferença você percebe em relação ao código de sockets TCP da Aula 2?
+Com sockets, é preciso tratar conexão, formatar mensagens, converter dados e usar send()/recv() manualmente. Com RPC, a comunicação fica transparente: chamam-se funções normalmente, sem gerenciar a troca de mensagens.
