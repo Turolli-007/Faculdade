@@ -1,0 +1,41 @@
+PS C:\Users\aluno> cd .\Downloads\aula\aula4\
+PS C:\Users\aluno\Downloads\aula\aula4> ls
+
+
+    Diretório: C:\Users\aluno\Downloads\aula\aula4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        16/09/2026     21:28            226 cliente-rpc.py
+-a----        16/09/2026     21:28            392 servidor-rpc.py
+
+
+PS C:\Users\aluno\Downloads\aula\aula4>
+PS C:\Users\aluno\Downloads\aula\aula4> python .\cliente-rpc.py
+10 + 5 = 15
+10 - 5 = 5
+10 x 5 = 50
+PS C:\Users\aluno\Downloads\aula\aula4>
+PS C:\Users\aluno\Downloads\aula\aula4> python .\cliente-rpc.py
+10 + 5 = 15
+10 - 5 = 5
+10 x 5 = 50
+10 / 2 = 5.0
+10 / 0 = Erro: divisão por zero
+PS C:\Users\aluno\Downloads\aula\aula4>
+PS C:\Users\aluno\Downloads\aula\aula4> python .\cliente-rpc.py
+10 + 5 = 15
+10 - 5 = 5
+10 x 5 = 50
+10 / 2 = 5.0
+10 / 0 = Erro: divisão por zero
+Digite o primeiro valor: 22
+Digite o segundo valor: 10
+1 - Somar
+2 - Subtrair
+3 - Multiplicar
+4 - Dividir
+Escolha: 1
+Resultado: 32.0
+PS C:\Users\aluno\Downloads\aula\aula4>
