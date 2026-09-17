@@ -1,0 +1,5 @@
+Explique por que uma chamada que parecia uma simples função deixou de funcionar.
+Porque, por baixo da abstração, existe uma rede. A chamada não é local: depende de conexão com o servidor. Mesmo com sintaxe de função, a operação é distribuída.
+
+Relacione o resultado com disponibilidade e dependência da rede.
+O cliente depende totalmente da disponibilidade do servidor e da rede. Se o servidor caiu ou a comunicação falhou, o serviço fica indisponível — característica fundamental de sistemas distribuídos: nenhum componente é sempre confiável.
