@@ -1,0 +1,15 @@
+Cenário 1: Transferência de um arquivo de trabalho
+Protocolo ideal: TCP
+pois é uma transferencia de trabalho exige maior segurança e garantia da entrega integra dos dados
+
+Cenário 2: Sistema de videoconferência
+Protocolo ideal: UDP
+pois precisa ser uma comunicação imediata mesmo que coisas sejam ignoradas
+
+Cenário 3: Sistema financeiro enviando uma operação crítica
+Protocolo ideal: TCP
+essas transações não podem permitir nenhum erro, preferindo por vezes ate a interrupção total que uma intrega incorreta ou avariada
+
+Cenário 4: Jogo on-line enviando continuamente a posição dos jogadores
+Protocolo ideal: UDP
+o tcp perderia tempo recuperando as posições anteriores, então o simplesmente mantem a posição mais atualizada 
