@@ -1,0 +1,38 @@
+PS C:\Users\aluno> cd .\Downloads\aula\aula4\
+PS C:\Users\aluno\Downloads\aula\aula4> ls
+
+
+    Diretório: C:\Users\aluno\Downloads\aula\aula4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        16/09/2026     21:28            226 cliente-rpc.py
+-a----        16/09/2026     21:28            392 servidor-rpc.py
+
+
+PS C:\Users\aluno\Downloads\aula\aula4>
+PS C:\Users\aluno\Downloads\aula\aula4> python .\servidor-rpc.py
+127.0.0.1 - - [16/Sep/2026 21:53:57] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2026 21:53:59] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2026 21:54:01] "POST / HTTP/1.1" 200 -
+
+KeyboardInterrupt
+PS C:\Users\aluno\Downloads\aula\aula4> python .\servidor-rpc.py
+127.0.0.1 - - [16/Sep/2026 22:04:38] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2026 22:04:40] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2026 22:04:42] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2026 22:04:44] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2026 22:04:46] "POST / HTTP/1.1" 200 -
+KeyboardInterrupt
+PS C:\Users\aluno\Downloads\aula\aula4> python .\servidor-rpc.py
+KeyboardInterrupt
+PS C:\Users\aluno\Downloads\aula\aula4> python .\servidor-rpc.py
+127.0.0.1 - - [16/Sep/2026 22:07:26] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2026 22:07:28] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2026 22:07:30] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2026 22:07:32] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2026 22:07:34] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2026 22:07:48] "POST / HTTP/1.1" 200 -
+KeyboardInterrupt
+PS C:\Users\aluno\Downloads\aula\aula4>
