@@ -1,0 +1,50 @@
+root@ubuntu:~$ hostname
+ubuntu
+root@ubuntu:~$ pwd
+/root
+root@ubuntu:~$ mkdir Aula002
+root@ubuntu:~$ cd Aula002/
+root@ubuntu:~/Aula002$ vim index.html
+root@ubuntu:~/Aula002$ cat index.html 
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+  <title>Computação eNuvem</title>
+
+ </head>
+
+<body>
+  <h1>computação em nuvem </h1>
+
+  <p>meu primeiro servidor em nuvem!</p>
+
+ </body>
+
+</html>
+root@ubuntu:~/Aula002$ python3 -m http.server 8080
+Serving HTTP on 0.0.0.0 port 8080 (http://0.0.0.0:8080/) ...
+
+127.0.0.1 - - [09/Sep/2026 23:02:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2026 23:03:57] "GET / HTTP/1.1" 200 -
+^C
+Keyboard interrupt received, exiting.
+root@ubuntu:~/Aula002$ vim index.html 
+root@ubuntu:~/Aula002$ cat index.html 
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+  <title>Computaçãom  eNuvem</title>
+
+ </head>
+
+<body>
+  <h1>computação em nuvem </h1>
+
+  <p>meu primeiro servidor em nuvem!</p>
+  <p>aluno: Gleidson Alves</p>
+  <p>aula 3 - modelos de implantação</p>
+ </body>
+
+</html>
+root@ubuntu:~/Aula002$ python3 -m http.server 8080
+Serving HTTP on 0.0.0.0 port 8080 (http://0.0.0.0:8080/) ...
