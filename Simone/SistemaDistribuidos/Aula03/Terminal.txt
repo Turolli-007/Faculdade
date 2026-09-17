@@ -1,0 +1,15 @@
+PS C:\Users\aluno> cd .\Downloads\
+PS C:\Users\aluno\Downloads> cd .\Aula3udp\
+PS C:\Users\aluno\Downloads\Aula3udp> python .\ClienteUdp2.py
+digite uma mensagem Hello world
+resposta do servidor:
+servidor receberu: Hello world
+PS C:\Users\aluno\Downloads\Aula3udp> python .\ClienteUdp2.py
+digite uma mensagem nice
+resposta do servidor:
+servidor receberu: nice
+PS C:\Users\aluno\Downloads\Aula3udp> python .\ClienteUdp2.py
+digite uma mensagem teste teste
+resposta do servidor:
+servidor receberu: teste teste
+PS C:\Users\aluno\Downloads\Aula3udp>
